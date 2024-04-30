@@ -23,23 +23,21 @@ samples, guidance on mobile development, and a full API reference.
 
 ## The Sceenshots of Application
 
-<img src="assets/screenshots/main-screen.png" width="32%" />
-<img src="assets/screenshots/mark-task.png" width="32%" />
-<img src="assets/screenshots/slide-to-delete.png" width="32%" />
-<img src="aassets/screenshots/adding-screen.png" width="32%" />
-<img src="assets/screenshots/updating-screen.png" width="32%" />
+<img src="assets/screenshots/main-screen.png" width="32%" style="max-width: 32%;"/>
+<img src="assets/screenshots/mark-task.png" width="32%" style="max-width: 32%;"/>
+<img src="assets/screenshots/slide-to-delete.png" width="32%" style="max-width: 32%;"/>
+<img src="assets/screenshots/adding-screen.png" width="32%" style="max-width: 32%;"/>
+<img src="assets/screenshots/updating-screen.png" width="32%" style="max-width: 32%;"/>
 
-## Bonus (Optional):
-1. Persistence:
-• [x] Save the task list to local storage and retrieve it on app start-up.
-2. Validation:
-• [x] Implement input validation to ensure the task description is not empty.
-3. UI Polish:
-• [x] Add some animations when adding/deleting tasks for better user experience.
-4. Testing:
-• [x] Write a simple unit test for one of the functions (e.g., adding a task, deleting a task).
+## Bonus features:
+I have already done some bunus features:
 
-## Using Flutter BLoC, Clean Architecture, and ObjectBox
+1. [x] Persistence: Save the task list to local storage and retrieve it on app start-up.
+2. [x] Validation: Implement input validation to ensure the task description is not empty.
+3. [x] UI Polish: Add some animations when adding/deleting tasks for better user experience.
+4. [x] Testing: Write a simple unit test for one of the functions (e.g., adding a task, deleting a task).
+
+## Using Flutter BLoC, Clean Architecture, GetIt and ObjectBox
 
 This application utilizes **Flutter BLoC** for state management, **Clean Architecture** for project structure, **GetIt** for depedency injection and **ObjectBox** for local storage.
 
@@ -55,17 +53,17 @@ There are two different folders. Each of them has own specific function.
 
 To delete a task, you can do so by sliding the task item. like this:
 
-<img src="assets/screenshots/slide-to-delete.png" width="32%" />
+<img src="assets/screenshots/slide-to-delete.png" width="32%" style="max-width: 32%;"/>
 
 ## Testing Result:
 
 <img src="assets/screenshots/testing-result.png" />
 
 ### Flutter & Tools Version
-* `Flutter 2.10.2`
-* `Tools • Dart 2.16.1`
-* `Tools • Android SDK 31.0.0`
-* `Tools • CocoaPods 1.11.2`
+* `Flutter 3.19.5`
+* `Tools • Dart 3.3.3`
+* `Tools • Android SDK 33.0.0`
+* `Tools • CocoaPods 1.13.0`
 
 ## Instructions to Build and Deploy The App
 
@@ -74,8 +72,8 @@ To delete a task, you can do so by sliding the task item. like this:
 #### 1. Clone The Github Repo
 
 ```bash
-$ git clone https://github.com/faisalramdan17/kuncie_music.git
-$ cd kuncie_music
+$ git clone https://github.com/faisalramdan17/todos_app.git
+$ cd todos_app
 ```
 
 #### 2. Get Packages
