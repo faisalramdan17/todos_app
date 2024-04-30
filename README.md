@@ -30,10 +30,10 @@ samples, guidance on mobile development, and a full API reference.
 ## Bonus features:
 I have already done some bunus features:
 
-1. [v] Persistence: Save the task list to local storage and retrieve it on app start-up.
-2. [v] Validation: Implement input validation to ensure the task description is not empty.
-3. [v] UI Polish: Add some animations when adding/deleting tasks for better user experience.
-4. [v] Testing: Write a simple unit test for one of the functions (e.g., adding a task, deleting a task).
+1. ✅ Persistence: Save the task list to local storage and retrieve it on app start-up.
+2. ✅ Validation: Implement input validation to ensure the task description is not empty.
+3. ✅ UI Polish: Add some animations when adding/deleting tasks for better user experience.
+4. ✅ Testing: Write a simple unit test for one of the functions (e.g., adding a task, deleting a task).
 
 
 ## Using Flutter BLoC, Clean Architecture, GetIt and ObjectBox
